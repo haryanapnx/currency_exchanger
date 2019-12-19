@@ -58,8 +58,8 @@ const Currency = () => {
     <>
       {isLoading && <Loader />}
       <Row style={{ marginTop: "10%" }}>
-        <Col md={{ span: 6, offset: 3 }}>
-          <Card>
+        <Col md={{ span: 4, offset: 4 }}>
+          <Card className='shadow'>
             <CardHeader setCalculate={setCalculate} calculate={calculate} />
             <CardList
               handleRemove={handleRemove}
